@@ -48,6 +48,7 @@ in our twitter app by calling it this way::
 
     frequency = conf['frequency']
 
+
 Getting Deafults
 ---------------------
 Above we inspected an INI file with some changed values. But what happens when the user 

@@ -1,2 +1,5 @@
+include setup.py
 include distribute_setup.py
-distribute-0.6.10.tar.gz
+include guachi/tests/*
+include docs/*
+
