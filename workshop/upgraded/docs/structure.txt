@@ -1,0 +1,4 @@
+docs/ 폴더는 프로젝트의 문서화와 관련된 파일 및 빌드 결과물을 포함합니다.
+- Makefile: Sphinx 문서 빌드용
+- build/: Sphinx 빌드 결과물
+- source/: Sphinx 원본 문서 및 설정 파일

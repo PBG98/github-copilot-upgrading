@@ -1,0 +1,17 @@
+# upgraded 폴더 구조 설명
+
+`upgraded` 폴더는 레거시 프로젝트의 모든 파일과 디렉터리를 최신 환경에 맞게 복사한 구조입니다.
+
+- MANIFEST.in: 패키징에 포함될 파일 목록
+- README.rst: 프로젝트 및 guachi 구성 관리 도구 설명
+- distribute-0.6.10.tar.gz, distribute_setup.py: 레거시 배포 관련 파일
+- setup.py: 프로젝트 설치 및 패키징 스크립트
+- docs/: Sphinx 기반 문서화 폴더
+  - structure.txt: 문서 폴더 구조 설명
+- guachi/: 핵심 패키지 소스 코드
+  - __init__.py, config.py, database.py: 주요 모듈
+  - tests/: 테스트 코드 (ConfigMapper, 설정, DB, 통합 테스트)
+- guachi.egg-info/: 패키지 메타데이터
+  - dependency_links.txt, PKG-INFO, SOURCES.txt, top_level.txt
+
+이 폴더는 레거시 프로젝트를 최신 Python 환경으로 업그레이드하거나, 구조를 분석·테스트·포팅하는 데 활용됩니다.

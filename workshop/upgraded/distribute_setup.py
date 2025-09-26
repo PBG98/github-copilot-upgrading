@@ -1,0 +1,1 @@
+# Legacy distribute setup script
